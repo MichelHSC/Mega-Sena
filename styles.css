@@ -30,6 +30,11 @@ p {
   justify-content: center;
   align-items: center;
   margin-bottom: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 1rem;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .number {
@@ -44,10 +49,6 @@ p {
   color: #fff;
 }
 
-.especial{
-    background-color: yellow;
-    color: #000;
-}
 
 button {
   margin: 0 auto;
@@ -60,6 +61,7 @@ button {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.4s;
+  margin-top: 20px;
 }
 
 button:hover {
